@@ -1,0 +1,39 @@
+.sidebar {
+  width: 30%;
+
+  padding: 20px 45px;
+  border-right: 1px solid rgb(141, 141, 141);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.users {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user {
+  padding: 5px 6px;
+  word-wrap: break-word;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-weight: 500;
+  width: 92%;
+  transition: background-color 0.2s;
+}
+
+.user a {
+  text-decoration: none;
+  color: #576357;
+}
+
+.user:hover {
+  text-decoration: underline;
+}
